@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "allowJs": true
+    "allowJs": true,
+    "types": ["node", "express"] 
   },
   "lib": ["es2015"]
 }
