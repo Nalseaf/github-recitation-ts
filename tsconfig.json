@@ -8,5 +8,13 @@
     "outDir": "dist",
     "allowJs": true
   },
+  "target": "ES6",
+  "module": "commonjs",
+  "strict": true,
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "allowImportingTsExtensions": true,
+  
   "lib": ["es2015"]
 }

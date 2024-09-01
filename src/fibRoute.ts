@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import fibonacci from "./fib"; // Use import instead of require
+import {fibonacci} from "./fib"; // Use import instead of require
 
 export default (req: Request, res: Response) => {
   const { num } = req.params as { num: string }; // Specify num as a string
